@@ -1,4 +1,15 @@
 body {
-	lenght: 1366;
-	height: 884;
+	width: 1400px;
+	height: 900px;
+	background-color: #1B1B1B;
+}
+
+
+p style {
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1366px;
+	height: 884px;
+	padding: 64px;
+	gap: 24px;
 }
