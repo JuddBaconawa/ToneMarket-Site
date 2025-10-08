@@ -1,11 +1,32 @@
+* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+}
+
 h1{
 		text-align: center;
 }
 
-.navbar ul{
+.navbar ul {
 
 }
 
-.navbar a{
+.navbar a {
 
+}
+
+
+
+
+.footer-container {
+		background-color: #212321;
+		padding-bottom: 4rem;
+
+}
+
+.footer {
+		width: 80%;
+		height: 40vh;
+		background-color: #212321;
 }
