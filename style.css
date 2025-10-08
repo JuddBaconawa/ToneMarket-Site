@@ -1,27 +1,11 @@
-body {
-	width: 1400px;
-	height: 900px;
-	background-color: #1B1B1B;
+h1{
+		text-align: center;
 }
 
-.truckTrailer-container {
-	width: 1366px;
-	height: 884px;
+.navbar ul{
 
 }
 
+.navbar a{
 
-.background-image {
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 1366px;
-	height: 884px;
-	padding: 64px;
-	
-	
-}
-
-
-.sectionTitleText {
-	
 }
