@@ -16,8 +16,20 @@ h1{
 
 }
 
+recently-viewed {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 2rem 0;
+		
+}
 
-
+product-list {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 2rem 0;
+}
 
 .footer-container {
 		background-color: #212321;
