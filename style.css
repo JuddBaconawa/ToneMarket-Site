@@ -9,6 +9,12 @@ h1{
 }
 
 .navbar ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #212321;
+		padding: 2rem 0;
 
 }
 
@@ -28,7 +34,7 @@ product-list {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin: 2rem 0;
+		margin: 2rem 5;
 }
 
 .footer-container {
