@@ -12,6 +12,10 @@ h1 {
 .navbar {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
+		background-color: #212321;
+		padding: 0 2rem;
+		opacity: .9;
 }
 
 .navbar ul {
@@ -21,7 +25,11 @@ h1 {
 		align-items: center;
 		background-color: #212321;
 		padding: 2rem 0;
+}
 
+.navbar ul:hover {
+		background-color: #212321;
+		cursor: pointer;
 }
 
 .navbar a {
@@ -29,7 +37,7 @@ h1 {
 		text-decoration: none;
 		margin: 0 2rem;
 		font-weight: 300;
-		transition: 0.3s;
+		/* transition: 0.3s; */
 
 }
 
