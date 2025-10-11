@@ -5,8 +5,13 @@
 		font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1 {
 		text-align: center;
+}
+
+.navbar {
+		display: flex;
+		align-items: center;
 }
 
 .navbar ul {
@@ -28,9 +33,24 @@ h1{
 
 }
 
+.menu-icon {
+		display: inline-block;
+		cursor: pointer;
+		padding: 10px;
+}
+
+.menu-icon .bar {
+		width: 30px;
+		height: 3px;
+		background-color: #333;
+		margin: 6px 0;
+		transition: 0.4s;
+		justify-content:first baseline;
+}
+
 img {
-		width: 175px;
-		height: 175px;
+		width: 155px;
+		height: 155px;
 		object-fit: cover;
 		border-radius: 10px;
 		background-color: #f5f5f5;
@@ -42,6 +62,7 @@ img {
 		background-color: #f5f5f5;
 		padding: 4rem 0rem;
 }
+
 
 .recently-viewed {
 		width: 100%;
@@ -73,14 +94,15 @@ img {
 
 .footer-container {
 		background-color: #212321;
-		padding-bottom: 4rem;
+		padding-bottom: 2rem;
+		
 		justify-content: center;
 		
 }
 
 .footer {
 		width: 80%;
-		height: 40vh;
+		height: 30vh;
 		background-color: #212321;
 		color: #fff;
 		display: flex;
