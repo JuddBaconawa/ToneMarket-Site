@@ -49,6 +49,8 @@ h1 {
 .navbar ul:hover {
 		background-color: #212321;
 		cursor: pointer;
+		margin: 0;
+		padding: 0;
 }
 
 .navbar a {
@@ -103,7 +105,7 @@ h1 {
 		height: 3px;
 		background-color: #333;
 		margin: 6px 0;
-		transition: 0.4s;
+		/* transition: 0.4s; */
 		justify-content:first baseline;
 }
 
@@ -138,7 +140,7 @@ img {
 		justify-content: center;
 		flex-wrap: wrap;
 		margin: 2rem 5;
-		padding: 0 2rem;
+		padding: 1rem 2rem;
 }
 
 .product-item {
