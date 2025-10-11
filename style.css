@@ -59,8 +59,16 @@ h1 {
 		height: 100%;
 		padding: 0.5rem 0;
 		font-weight: 300;
-		/* transition: 0.3s; */
+		transition: 0.3s;
 
+}
+
+.menu-icon {
+		color: white;
+		background: #212121;
+		border: none;
+		/* width: 150px;
+		height: 40px; */
 }
 
 .search-box {
